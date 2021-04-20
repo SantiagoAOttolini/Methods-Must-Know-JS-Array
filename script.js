@@ -54,3 +54,10 @@ const total = items.reduce((currentTotal, item) => {
 }, 0);
 
 console.log(total);
+
+//INCLUDE
+const a = [1, 2, 3, 4, 5];
+
+const total = a.include(2);
+
+console.log(total);
