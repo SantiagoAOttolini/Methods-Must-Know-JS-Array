@@ -16,27 +16,35 @@ const filterItems = items.filter((item) => {
 console.log(filterItems);
 
 //MAP
-const mapItems = items.map((item) =>{
-    return item.price
-})
+const mapItems = items.map((item) => {
+  return item.price;
+});
 
-console.log(mapItems)
+console.log(mapItems);
 
 //FIND
-const findItems = items.find((item) =>{
-    return item.name === "Album"
-})
+const findItems = items.find((item) => {
+  return item.name === "Album";
+});
 
-console.log(mapItems)
+console.log(mapItems);
 
 //FOR EACH
-items.forEach((item) =>{
-    console.log(item.price)
-})
+items.forEach((item) => {
+  console.log(item.price);
+});
 
 //SOME
-const hasInexpensiveItems = items.some((item) =>{
-    return item.name <= 100
-})
+const hasInexpensiveItemsSome = items.some((item) => {
+  return item.name <= 100;
+});
 
-console.log(hasInexpensiveItems)
+console.log(hasInexpensiveItemsSome);
+
+//EVERY
+const hasInexpensiveItemsEvery = items.every((item) => {
+  return item.name <= 100;
+});
+
+console.log(hasInexpensiveItemsEvery);
+
