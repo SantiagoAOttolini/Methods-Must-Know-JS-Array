@@ -29,3 +29,14 @@ const findItems = items.find((item) =>{
 
 console.log(mapItems)
 
+//FOR EACH
+items.forEach((item) =>{
+    console.log(item.price)
+})
+
+//SOME
+const hasInexpensiveItems = items.some((item) =>{
+    return item.name <= 100
+})
+
+console.log(hasInexpensiveItems)
